@@ -1,13 +1,13 @@
 {
-  "name": "autodop-perm",
+  "name": "bootstrap-website-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple template for website development using bootstrap and gulp for sass compiling and livereload.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp browser-sync"
   },
   "author": "Eisele Valeriy",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
